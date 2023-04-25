@@ -1,27 +1,26 @@
-# Que se hizo en la clase?
+# Proyecto E-Commerce
 
-1) Instalar librerias de npm i express mongoose cors joi dotenv(ok)
-2)Levantamos un servidor(ok)
-3) agregamos el script start al package.json(ok)
-4) agregamos cors y dotenv(ok)
-5) conectamos mongo atlas (coonect drivers o connect app)(ok)
-6) creamos la carpeta config e importamos mongoose(ok)
-7) Creamos el archivo .env en el directorio principal de nuestro proyecto y colocamos la url que copiamos en atlas(ok)
-8) Acordarse de colocar el nombre de la base de datos en la url de atlas(ok)
-9) luego importamos nuestra database.js en el servidos(index.js)(ok)
-10) creamos una ruta y su controlador, y las instanciamos en el servidor(ok)
-12) creamos el models Users.js(ok)
-13) Importamos el modelo en nuestro controllador(ok)
-14) usamos thunderclient o postman y agregamos en el body (Post)lo del modelo(ok)
-15) modificamos el create , para que pueda guardar la informacion (ok)del usuario en nuestra base de datos, ojo mongo agrega un id al objeto creado con la propiedad _id: 
-16) Usamos postman o thunder y creamos el usuario, verificamos en atlas su creacion(ok)
-17) Creamos ahora la obtencion para todos los usuarios creados(ok)
-18) modifciamos el modelo agregando el type y el requires, explicaion de esto mas a fondo(ok)
-19) explicar documentacion de mongoose, sus propiedades(ok)
-20) explicar el error que sucede en el body que puedo enviar cualquier cosa en el, con respecto a un model establecido(ok)
-21) Crear un delete para usuarios(ok)
-22)Crear un update para usuarios(ok)
-23) Añadir Models de productos con favoriteProduct en el modelo de usuarios : {type: mongoose.objectID}
-24) al momento de obtener la informacion en usuarios agregar Populate, explicar populate
-25) Ejercicio: Empezar a desarrollar su modelo pàra el Ecommerce
+E-Commerce de venta de Vaporizadores creado en el cual se hace uso del stack MERN en su totalidad, uso un sistema de autenticacion (jwt) y pago de compras (paypal).
 
+## Base de datos
+
+Utilización de Mongo Atlas. Solo 3 tablas -> Usuario, Compras y Productos
+
+### Tecnologias
+
+Nodejs - JavaScript Runtime <br>
+Express - Framework de Nodejs <br>
+Mongoose - Base de datos NoSQL <br>
+React.js - Libreria JS <br>
+CSS - Estilos <br>
+Boostrap - Estilos
+
+#### Links
+
+Despliegue en Netlify https://master--sparkling-froyo-949e50.netlify.app/ <br>
+Repositorio Front-End: https://github.com/pascalcorrea/Frontend-Ecommerce <br>
+Repositorio Back-End: https://github.com/pascalcorrea/Backend-Ecommerce
+
+#### Fotos de proyecto 
+
+![master--sparkling-froyo-949e50 netlify app_](https://user-images.githubusercontent.com/98128852/234151331-1a44f5d1-ed3b-40c0-93e8-327c8cdf3acd.png)
